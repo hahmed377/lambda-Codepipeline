@@ -21,3 +21,8 @@ phases:
   post_build:
     commands:
       - echo deployment completed at `date`
+
+artifacts:
+  type: zip
+  files:
+    - sam-template.yaml
